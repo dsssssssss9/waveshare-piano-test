@@ -1,3 +1,7 @@
+input.onButtonPressed(Button.A, function () {
+    music.setTempo(119)
+    music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
+})
 music.setVolume(206)
 music.setTempo(61)
 WSTouchPiano.TP_PlayMusic(294, music.beat(BeatFraction.Quarter))
